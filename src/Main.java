@@ -10,9 +10,8 @@ public class Main {
             System.out.println(month);
 
             String monthString = month.toString();
-            String lastLetter = monthString.substring(monthString.length() -1);
 
-            if(lastLetter.equals("Y")) {
+            if(monthString.endsWith("Y")) {
                 System.out.println("ends with y");
             } else {
                 System.out.println("doesn't end with y");
